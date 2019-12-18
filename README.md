@@ -1,5 +1,5 @@
 # Fake News Detection
-[ INDP3 AIM - SUPCOM ] Project : Fake News Detection
+[ INDP3 AIM - SUPCOM ] Project : Fake News Detection  
 Realized by :  
 • **Ihebeddine Riahi** : ihebeddine.riahi@supcom.tn  
 • **Chaima Bouzaidi** : chayma.bouzaidi@supcom.tn  
@@ -51,4 +51,4 @@ To build this app, we followed this steps:
 <a name="StartApp"/>
 
 ## Start the App  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `client\` directory and run **npm start** to start the App  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `client\` directory and run **npm install && npm start** to start the App  
