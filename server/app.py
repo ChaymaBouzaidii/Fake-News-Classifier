@@ -28,7 +28,7 @@ import codecs
 
 app = Flask(__name__, static_folder="./public/static", template_folder="./public")
 cors = CORS(app)
-run_with_ngrok(app)  #Starts ngrok when the app is run
+run_with_ngrok(app)  #Make api public
 
 @app.route("/")
 def home():

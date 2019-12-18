@@ -15,6 +15,7 @@ Realized by :
 
 ## Overview
 This app allows a user to detect fake news.  
+
 **How to do 🤔 ?**  
 Let's have a look at the demo below 🤓:  
 
