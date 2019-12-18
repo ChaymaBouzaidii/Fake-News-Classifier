@@ -20,7 +20,7 @@ This app allows a user to detect fake news.
 Let's have a look at the demo below 🤓:  
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53185260/71126464-59729700-21e9-11ea-9feb-73bc750f372b.gif"  style="margin:15px">
+    <img src="https://user-images.githubusercontent.com/53185260/71131550-4796f100-21f5-11ea-9832-94662f4b8de7.gif"  style="margin:15px">
 </p>
 
 So, It is easy The user paste the article in the text area and just click on `Predict`.  
@@ -52,4 +52,4 @@ To build this app, we followed this steps:
 <a name="StartApp"/>
 
 ## Start the App  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `client\` directory and run **npm install && npm start** to start the App  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `fakenews-ui\` directory and run **npm install && npm start** to start the App  
