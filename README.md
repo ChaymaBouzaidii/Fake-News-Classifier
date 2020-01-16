@@ -24,6 +24,8 @@ First of all, let's have a look how the app looks like 🤓:
 
 As you see, this web app allows a user to detect either an article is fake or real news. To do, the user just paste the article in the text area and click on `Predict`. 
 
+**NB** : You can add some articles in the test dataset file : `server/data/fake_or_real_news_testset.csv`  
+
 To build this app, we followed this main steps:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Training a machine learning classifier (Logistic Regression)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Building an interactive web app using `React.js`  
