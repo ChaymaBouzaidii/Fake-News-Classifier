@@ -1,8 +1,6 @@
-# Fake News Detection
-[ INDP3 AIM - SUPCOM ] Project : Fake News Detection  
-Realized by :  
-• **Ihebeddine Riahi** : ihebeddine.riahi@supcom.tn  
-• **Chaima Bouzaidi** : chayma.bouzaidi@supcom.tn  
+# Fake News Classifier
+
+In this job, I collaborated with <a href="https://github.com/IhebeddineRyahi">Ihebeddine RYAHI</a>
 
 ## Table of contents
 1. [Overview](#Overview)
@@ -14,37 +12,35 @@ Realized by :
 <a name="Overview"/>  
 
 ## Overview
-This app allows a user to detect fake news.  
+In this project, we built an end to end fake news classifier. This starts from training a machine learning classifier to deploying a web app.😀  
 
-**How to do 🤔 ?**  
-Let's have a look at the demo below 🤓:  
+How to do 🤔?
+
+First of all, let's have a look how the app looks like 🤓:  
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53185260/71131550-4796f100-21f5-11ea-9832-94662f4b8de7.gif"  style="margin:15px">
 </p>
 
-So, It is easy The user paste the article in the text area and just click on `Predict`.  
+As you see, this web app allows a user to detect either an article is fake or real news. To do, the user just paste the article in the text area and click on `Predict`. 
 
-To build this app, we followed this steps:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Training a machine learning model (Logistic Regression) on the dataset located in `\server\data`   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Building a user interface using React  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Building an API using Flask  
-
-**NB**: To fit our dataset, we have done a benchmark of multiple models and chosen the one that gives the best performances  
+To build this app, we followed this main steps:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Training a machine learning classifier (Logistic Regression)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Building an interactive web app using `React.js`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Setting a `REST API` using `Flask`  
 
 <a name="Requirements"/>
 
 ## Requirements
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Node (v12.13.0)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Python (3.7.4)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • All Python packages specified in Python scripts  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Node.js (version 12.13.0)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Python (version 3.7.4)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Flask : `pip install flask`  
  
-
 <a name="Setup"/>
 
 ## Setting up the API
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `server\` directory and run `app.py` script in order to start the API  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • You have to get the pickle of our trained model from Dropbox: `https://www.dropbox.com/s/r2bhfdvzb7rb99k/model.pkl?dl=0` and store in in `server\model` directory  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • You can get the pickle of our trained model from Dropbox: `https://www.dropbox.com/s/r2bhfdvzb7rb99k/model.pkl?dl=0` and store it in `server\model` directory  
 **NB** : Keep in mind that when you first run the `app.py` script, the machine learning model (~350MB) will be loaded into your machine RAM  
   
 
