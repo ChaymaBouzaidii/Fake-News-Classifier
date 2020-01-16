@@ -14,7 +14,7 @@ In this job, I collaborated with <a href="https://github.com/IhebeddineRyahi">Ih
 ## Overview
 In this project, we built an end to end fake news classifier. This starts from training a machine learning classifier to deploying a web app.😀  
 
-How to do 🤔?
+**How to do 🤔?**
 
 First of all, let's have a look how the app looks like 🤓:  
 
