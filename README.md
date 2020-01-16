@@ -48,4 +48,4 @@ To build this app, we followed this main steps:
 <a name="StartApp"/>
 
 ## Start the App  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `fakenews-ui\` directory and run **npm install && npm start** to start the App  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Go to `client\` directory and run **npm install && npm start** to start the App  
