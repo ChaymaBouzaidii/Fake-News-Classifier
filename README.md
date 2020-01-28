@@ -22,7 +22,7 @@ First of all, let's have a look how the app looks like 🤓:
     <img src="https://user-images.githubusercontent.com/53185260/71131550-4796f100-21f5-11ea-9832-94662f4b8de7.gif"  style="margin:15px">
 </p>
 
-As you see, this web app allows a user to detect either an article is fake or real news. To do, the user just paste the article in the text area and click on `Predict`. 
+As you see, this web app allows a user to detect either an article is fake or real news. To do, the user just pastes the article in the text area and click on `Predict`. 
 
 **NB** : You can add some articles in the test dataset file : `server/data/fake_or_real_news_testset.csv`  
 
